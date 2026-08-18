@@ -1,0 +1,35 @@
+/**
+ * @name Shrles Theme
+ * @author Banana432112345
+ * @description A custom Vencord theme with screenshot background
+ * @version 1.0.0
+ */
+
+:root {
+  --background-image: url("https://cdn.discordapp.com/attachments/1536827845152612464/1538979368804552866/Screenshot_2026-08-06_19.41.43.png");
+  --background-blur: 0px;
+  --background-opacity: 1;
+}
+
+/* Main background */
+body {
+  background-image: var(--background-image) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Add semi-transparent overlay for better readability */
+.app-mount {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Optional: Customize specific elements */
+.sidebar-region {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.chat-region {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
