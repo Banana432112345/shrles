@@ -1,0 +1,17 @@
+{
+  "name": "Shrles Theme",
+  "version": "1.0.0",
+  "description": "A custom Vencord Discord theme with screenshot background",
+  "author": "Banana432112345",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Banana432112345/shrles"
+  },
+  "keywords": [
+    "vencord",
+    "discord",
+    "theme",
+    "background"
+  ]
+}
