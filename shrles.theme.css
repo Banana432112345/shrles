@@ -6,7 +6,7 @@
  */
 
 :root {
-  --background-image: url("file:///path/to/background.png");
+  --background-image: url("https://cdn.discordapp.com/attachments/1536827845152612464/1538979368804552866/Screenshot_2026-08-06_19.41.43.png?ex=6a84a5ba&is=6a83543a&hm=f474d659cb8de8b02efba933aeea74dcc88971436d8f711f5518578f1297f54d");
   --background-blur: 0px;
   --background-opacity: 1;
 }
@@ -33,9 +33,3 @@ body {
 .chat-region {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
-
-/* IMPORTANT: Replace /path/to/background.png with your actual file path:
-   Windows: C:/Users/YourUsername/Pictures/background.png
-   Linux: /home/YourUsername/Pictures/background.png
-   Mac: /Users/YourUsername/Pictures/background.png
-*/
